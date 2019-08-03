@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Image.css";
 
 function Image() {
 
-  const [photoState changePhotoState] = useState();
+  const [photoState, changePhotoState] = useState();
 
-  return {
+  return (
     <>
     </>
-  }
+  )
 }
 
 export default Image;
